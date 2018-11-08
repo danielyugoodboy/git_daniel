@@ -11,7 +11,7 @@ from sensor_msgs.msg import LaserScan
 obs_dist = [0 for i in range(360)]
 obs_point = np.zeros((360,2))
 
-
+#my name is daniel
 #function of caculate att_Force
 def Fatt(p,v,nRT,nVRT):
 	#(p,v)=pure number (nRT,nVrt)=vector
